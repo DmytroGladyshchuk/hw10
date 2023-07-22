@@ -53,10 +53,7 @@ ul {
 
 .list-header-nav {
 
-    font-size: 14px;
-    font-family: Roboto;
-    font-weight: 500;
-    letter-spacing: 0.28px;
+    justify-content: center;
     display: flex;
 
 }
@@ -89,7 +86,8 @@ ul {
 /* !==========banner========== */
 .banner {
     background-color: #2F303A;
-    width: 1519px;
+    display: flex;
+
     height: 600px;
 }
 
@@ -139,6 +137,7 @@ ul {
 
 .specials-list {
     display: flex;
+    justify-content: center;
 }
 
 .specials li {
@@ -171,6 +170,7 @@ ul {
 
 .work-list {
     display: flex;
+    justify-content: center;
 }
 
 .work-item {
@@ -235,6 +235,7 @@ ul {
     background-color: #2F303A;
     width: 1519px;
     height: 252px;
+    justify-content: center;
 }
 
 .footer-wrap {
@@ -281,14 +282,9 @@ ul {
 }
 
 .proj-btn {
-    color: #212121;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.48px;
-    display: inline-block;
-    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .proj-btn:hover {
